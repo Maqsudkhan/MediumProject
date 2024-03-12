@@ -12,6 +12,6 @@ namespace MediumProject.Application.Abstraction
     {
         public DbSet<User> Users { get; set; }
 
-        Task SaveChangesAsync(CancellationToken cancellationToken);
+        Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
     }
 }

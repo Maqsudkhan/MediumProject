@@ -1,13 +1,12 @@
-﻿using MediatR;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MediumProject.Application.UseCases.MediumProjectUser.Commands
+namespace MediumProject.Domain.DTOs
 {
-    public class CreateUserCommand : IRequest
+    public class UserDTO
     {
         public string Name { get; set; }
         public string UserName { get; set; }
@@ -17,4 +16,5 @@ namespace MediumProject.Application.UseCases.MediumProjectUser.Commands
         public string PasswordHash { get; set; }
         public string? PhotoPath { get; set; }
         public int FollowersCount { get; set; }
+    }
 }
