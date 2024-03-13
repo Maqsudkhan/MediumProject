@@ -23,7 +23,6 @@
     <Folder Include="UseCases\MediumProjectPost\Commands\" />
     <Folder Include="UseCases\MediumProjectPost\Handlers\" />
     <Folder Include="UseCases\MediumProjectPost\Queries\" />
-    <Folder Include="UseCases\MediumProjectUser\Queries\" />
   </ItemGroup>
 
 </Project>
